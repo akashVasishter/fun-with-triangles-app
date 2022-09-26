@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+* {
+
+    --primary-color: #2563eb;
+    --secondary-color: #1f2937;
+
+}
+
+
+body {
+
+    font-family: 'Montserrat', 
+    sans-serif;
+    margin: 0px;
+    background-color: var(--secondary-color);
+    
+}
+
+h1 {
+
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.list-non-bullet {
+
+    list-style: none;
+}
+
+
+
+.item-inline {
+
+    display: inline;
+    padding: 0rem 1.5rem;
+
+}
+
+
+
+.navigation-container {
+
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 1rem;
+    padding: 0.5rem 0.5rem;
+
+}
+
+
+.navigation-container .link {
+
+  color: white;
+  text-decoration: none;
+}
+
+
+.navigation-container .link-active {
+
+    font-weight: bold;
+ }
+
+input,label {
+
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 20%;
+   padding: 1rem;
+}
+
+label{
+
+    color: white;
+}
+
+button {
+
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+   padding: 0.5rem;
+   background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   margin-top: 1rem;
+}
+
+#output {
+
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    color: var(--primary-color);
+    margin-top: 5vw;
+}
+
+#question-container {
+
+    font-size: x-large;
+    color: aliceblue;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#output-quiz {
+
+    font-size: xx-large;
+    color:var(--primary-color);
+    text-align: center;
+    display: block;
+    padding-top: 1rem;
+}
+
+#calculate-hypotenuse {
+
+    display: block;
+    padding: 1rem;
+}
