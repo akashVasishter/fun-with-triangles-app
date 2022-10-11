@@ -100,10 +100,10 @@ button {
 
 #question-container {
 
-    font-size: x-large;
+    font-size: large;
     color: aliceblue;
     text-align: center;
-    padding: 0.5rem;
+    padding: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -113,7 +113,7 @@ button {
     color:var(--primary-color);
     text-align: center;
     display: block;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 #calculate-hypotenuse {
